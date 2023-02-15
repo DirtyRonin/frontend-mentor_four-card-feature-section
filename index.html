@@ -1,45 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Four card feature section</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="stylesheet" href="index.css" />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  
-  Reliable, efficient delivery
-  Powered by Technology
-
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
-
-  Supervisor
-  Monitors activity to identify project roadblocks
-
-  Team Builder
-  Scans our talent network to create the optimal team for your project
-
-  Karma
-  Regularly evaluates our talent to ensure quality
-
-  Calculator
-  Uses data from past projects to provide better delivery estimates
-
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
-</body>
+    <title>Frontend Mentor | Four card feature section</title>
+  </head>
+  <body>
+    <header></header>
+    <nav></nav>
+    <main>
+      <div class="container">
+        <div class="headline-box">
+          <h4>Reliable, efficient delivery</h4>
+          <h4>Powered by Technology</h4>
+          <p>Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful</p>
+        </div>
+        <div class="card-feature-box">
+          <div class="card-feature supervisor">
+            <div class="card-feature-header cyan"></div>
+            <div class="card-feature-main">
+              <h4>supervisor</h4>
+              <p>Monitors activity to identify project roadblocks</p>
+            </div>
+            <div class="card-feature-footer">
+              <img src="./images/icon-supervisor.svg" alt="" />
+            </div>
+          </div>
+          <div class="card-feature team-builder">
+            <div class="card-feature-header red"></div>
+            <div class="card-feature-main">
+              <h4>Team Builder</h4>
+              <p>Scans our talent network to create the optimal team for your project</p>
+            </div>
+            <div class="card-feature-footer">
+              <img src="./images/icon-team-builder.svg" alt="" />
+            </div>
+          </div>
+          <div class="card-feature karma">
+            <div class="card-feature-header orange"></div>
+            <div class="card-feature-main">
+              <h4>Karma</h4>
+              <p>Regularly evaluates our talent to ensure quality</p>
+            </div>
+            <div class="card-feature-footer">
+              <img src="./images/icon-karma.svg" alt="" />
+            </div>
+          </div>
+          <div class="card-feature calculator">
+            <div class="card-feature-header blue"></div>
+            <div class="card-feature-main">
+              <h4>calculator</h4>
+              <p>Uses data from past projects to provide better delivery estimates</p>
+            </div>
+            <div class="card-feature-footer">
+              <img src="./images/icon-calculator.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Your Name Here</a>.
+      </p>
+    </footer>
+  </body>
 </html>
