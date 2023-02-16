@@ -40,13 +40,19 @@ body {
   grid-template-rows: 1fr auto;
   padding: 5rem 4rem;
   grid-gap: 2.2rem;
-  border: 1px solid black;
 }
 
 .headline-box {
   display: grid;
   grid-template-columns: auto 35rem auto;
   grid-template-rows: 1fr 1fr 2fr;
+}
+
+@media (width < 900px) {
+  .headline-box {
+    display: flex;
+    flex-flow: column wrap;
+  }
 }
 
 .headline-box * {
